@@ -1,6 +1,5 @@
 {
     "require": {
-        "ext-soap": "*",
         "traffaret/amphp-async-soap": "^1.0"
     },
     "require-dev": {
