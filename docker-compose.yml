@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+    php:
+        image: php:7.4-alpine
+        environment:
+            - COMPOSER_HOME=/app/var/composer
+        volumes:
+            - .:/app
+        working_dir: /app
